@@ -3,17 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RandomStrinGen - 16-Character Alphanumeric Generator</title>
+    <title>RandomStringGen - 16-Character Alphanumeric Generator</title>
     <meta name="description" content="Generate a random 16-character alphanumeric string with RandomStringGen. Perfect for passwords, codes, and more.">
     <meta name="keywords" content="random string generator, alphanumeric string, 16-character string, password generator, code generator, random alphanumeric, online tool">
     <meta name="author" content="Hanzel Lacida">
     <meta name="robots" content="index, follow">
+
+    <!-- Google AdSense script -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2137593406454250" crossorigin="anonymous"></script>
+
     <style>
         body {
             font-family: Arial, sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
             height: 100vh;
             margin: 0;
             background-color: #f4f4f4;
@@ -24,6 +29,8 @@
             background-color: #ffffff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
+            width: 100%;
+            max-width: 600px;
         }
         h1 {
             color: #333;
@@ -49,18 +56,45 @@
         .checkbox-container {
             margin: 10px 0;
         }
+        .ad-container {
+            margin: 20px 0;
+        }
     </style>
 </head>
 <body>
     <div class="container">
+           <!-- Google AdSense Ad Space Above -->
+           <div class="ad-container">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-2137593406454250"
+                data-ad-slot="1234567890"
+                data-ad-format="auto"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
         <h1>RandomStringGen</h1>
         <p>Generate a random 16-character alphanumeric string</p>
+        
         <div class="checkbox-container">
             <input type="checkbox" id="includeSymbols">
             <label for="includeSymbols">Include symbols</label>
         </div>
         <button onclick="generateRandomString()">Generate</button>
         <p id="randomString"></p>
+
+        <!-- Google AdSense Ad Space Below -->
+        <div class="ad-container">
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-2137593406454250"
+                data-ad-slot="1234567890"
+                data-ad-format="auto"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
     </div>
 
     <script>
